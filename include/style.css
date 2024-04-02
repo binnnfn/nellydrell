@@ -1,0 +1,109 @@
+    
+    body{
+     margin: 0; padding: 0;
+    
+    }
+    
+    
+   .pagesubtitle a{
+     
+    font: 20px tahoma, helvetica,arial, verdana, sans-serif; 
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+	font-weight: bold;
+    text-decoration: underline; 
+  
+    }     
+    
+   .slogan{
+     
+    font: 20px tahoma, helvetica,arial, verdana, sans-serif; 
+    line-height: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+	font-weight: bold; 
+    }    
+     
+    .slogan a{
+     
+    font: 20px tahoma, helvetica,arial, verdana, sans-serif; 
+    line-height: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+	font-weight: bold; 
+    }      
+    
+       .menu_title {
+     
+    font: 16px tahoma, tahoma,helvetica,arial, verdana, sans-serif; 
+    line-height: 20px;
+    color: #ca1800;
+    text-transform: uppercase;
+    text-decoration: none;   
+    margin-left:10px;
+    } 
+    
+
+.works {    color: #000000; text-transform: uppercase;  font-size: 13px; line-height:20px; }
+.works a {    color: #363636; text-transform: uppercase;  font-size: 13px; line-height:20px;text-decoration: none; }
+.works a:hover { color: #000000; text-decoration: underline;}  
+.works_on a{  color: #ca1800; text-decoration: underline;}
+.works_on a:hover{  color: #ca1800; text-decoration: underline;}
+
+.menu { font-family: tahoma, helvetica, arial; font-size: 12px; line-height: 20px; text-decoration: none; color: #000000; }                
+.menu a{ text-decoration : none; color: #000000; }
+       
+      .menu a:hover{
+    	
+    font-family:  tahoma, helvetica,arial, verdana, sans-serif; 
+    font-size: 12px; 
+    line-height: 18px;
+    background: #000000;
+    text-decoration : none;
+    color: #FFFFFF;
+   
+    }     
+       
+
+       
+       
+    .title {
+     
+    font-family:  tahoma, helvetica,arial, verdana, sans-serif; 
+    font-size: 20px; 
+    line-height: 20px;
+    color: #ca1800;
+    text-transform: uppercase;
+    
+    }       
+       
+     
+    hr {
+    
+    	color: #fff; 
+    	background-color: #fff; 
+    	margin-top:4px; 
+    	margin-bottom:3px; 
+    	margin-left:-5px; 
+    	margin-right:0px; 
+    	border: 1px solid #6b6d81; border-style: none none solid; 
+    	
+    }
+
+    
+         
+    
+    
+       
+.text p,td { font-family: tahoma,helvetica,arial; font-size: 12px; line-height: 14px; color: #000000; }    
+.text a{  color: #000000; }
+.text a:hover {  color: #ca1800;  }  
+    
+       
+    
+    
+    
+    
+
+     
