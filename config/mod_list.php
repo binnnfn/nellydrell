@@ -1,0 +1,62 @@
+<? 
+
+
+function  mod_conf(){
+
+
+    $m = 0;
+    $fields[$m][0]="email";
+    $fields[$m][1]="E-Mail";
+    $fields[$m][2]="text";
+    $fields[$m][3]=30;
+    $fields[$m][4]=100;
+    $fields[$m][5]=0; //lang
+
+
+	
+	return $fields;
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+  function select(){
+    
+     makeselect("id", "id", "desc",0,"email", 0,0);
+
+  } // function select
+
+//////////////////////////////////////////////////////////////////////////
+
+  function db_add(){
+  
+
+	addDB(mod_conf(),$additional);
+
+  } // function db_add
+
+//////////////////////////////////////////////////////////////////////////
+
+  function db_change(){
+
+   changeDB(mod_conf(),$additional);
+
+  } // function db_rename
+
+//////////////////////////////////////////////////////////////////////////
+
+  function db_remove(){
+
+     removeDB();
+
+  } // function db_remove
+
+//////////////////////////////////////////////////////////////////////////
+
+  function forms(){
+  
+   makeForms(mod_conf(),0);
+
+  } // function forms
+
+//////////////////////////////////////////////////////////////////////////
