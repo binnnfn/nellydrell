@@ -1,0 +1,136 @@
+/* SLIMBOX */
+
+#lbOverlay {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #111;
+	cursor: pointer;
+}
+
+/*colore fondo lightbox*/
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	left: 50%;
+	overflow: hidden;
+	background-color: #000000;
+	border: 1px solid #222222;
+}
+
+.lbLoading {
+	background: #fff url(../images/loading.gif) no-repeat center;
+}
+
+/*Immagine e relativo bordo*/
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 4px solid #000;
+	border-bottom-style: none;
+	background-repeat: no-repeat;
+	padding:0;
+	margin:0;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+	cursor:pointer;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(../images/prev_chevron.png) no-repeat 0% 50%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(../images/next_chevron.png) no-repeat 100% 50%;
+}
+/*Gestione colori, ingombro txt lightbox, bottoni*/
+#lbBottom {
+	color: #FFF;
+	line-height: 1.4em;
+	text-align: left;
+	margin:0 4px;
+	border-bottom:4px solid #000;
+	background:url(../images/pto.gif) 0 0 repeat-x;
+	clear:both;
+}
+
+#lbCloseLink {
+	display: block;
+	float: left;
+	width: 66px;
+	cursor:pointer;
+	height: 16px;
+	background: transparent url(../images/closelabel.gif) 0 0 no-repeat;
+	margin: 0;
+}
+#lbCloseLink:hover {
+	background: transparent url(../images/closelabel.gif) 0 -16px no-repeat;
+}
+#lbPlayLink.mostraBt {
+	display: block;
+	float: left;
+	width: 18px;
+	height: 16px;
+	background: transparent url(../images/play.gif) 0 0 no-repeat;
+	margin: 0;
+	cursor: pointer;
+}
+#lbPlayLink:hover {
+	background: transparent url(../images/play.gif) 0 -16px no-repeat;
+}
+#lbPlayLink.nascondiBt {
+	display:none;
+}
+
+#lbStopLink.mostraBt{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 16px;
+	background: transparent url(../images/stop.gif) 0 0 no-repeat;
+	margin: 0;
+	cursor: pointer;
+}
+#lbStopLink:hover {
+	background: transparent url(../images/stop.gif) 0 -16px no-repeat;
+}
+#lbStopLink.nascondiBt {
+	display:none;
+}
+
+#lbNumber {
+	float:right;
+	margin-left: 71px;
+	
+}
+#lbCaption {
+	clear:right;
+	float: right;
+	margin-left: 71px;
+	color:#CCC;
+	/*font-weight: bold;*/
+}
+
+/*loader slideshow*/
+#loaderTime {
+	height:5px;
+	background:url(../images/ptoOver.gif) 0 0 repeat-x;
+	width:0%;
+	display:block;
+	padding:0;
+	margin:0;
+}
